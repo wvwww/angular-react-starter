@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache nginx
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf ./nginx.conf
 
 EXPOSE 8080
 
